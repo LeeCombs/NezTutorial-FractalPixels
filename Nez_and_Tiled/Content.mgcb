@@ -41,8 +41,20 @@
 /processorParam:TextureFormat=Color
 /build:images/playerTexture.png
 
-#begin Map_1.tmx
+#begin maps/Map_1.tmx
 /importer:TiledMapImporter
 /processor:TiledMapProcessor
-/build:Map_1.tmx
+/build:maps/Map_1.tmx
+
+#begin maps/images/Tileset_Ivan_Voirol.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:maps/images/Tileset_Ivan_Voirol.png
 
